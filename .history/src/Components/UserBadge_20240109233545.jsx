@@ -2,8 +2,8 @@
 import React from "react";
 import { Badge } from "react-bootstrap";
 import "../Assets/Css/Styles.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const UserBadge = ({ name }) => {
   const initials = name
@@ -20,8 +20,9 @@ const UserBadge = ({ name }) => {
             <span>{initials} </span>{" "}
           </div>
           <span className="ms-2">{name} </span>
-
-          <FontAwesomeIcon icon={faTimes} className=" ms-2" />
+  
+      <FontAwesomeIcon icon={faTimes} className=" ms-2"/>
+ 
         </div>
       </Badge>
     </div>

@@ -1,7 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import UserBadge from "../Components/UserBadge";
-import userAddIcon from "../Assets/Images/Group 758674.png";
 
 function TicketItem() {
   const userName = "John";
@@ -41,14 +40,14 @@ function TicketItem() {
         </Col>
         <Row>
           <Col xl={5} className="mt-2">
-            <Row>
-              <Col sm={3}>
-                <UserBadge name={userName} />
-              </Col>
-              <Col sm={2}>
-                <Image src={userAddIcon} alt="Local Icon" rounded />
-              </Col>
-            </Row>
+            <UserBadge name={userName} />
+          </Col>
+          <Col xl={5} className="mt-2">
+          <img
+            src={userAddI}
+            alt="Local Icon"
+            className="img-thumbnail me-2"
+          />
           </Col>
 
           <Col xl={7} className="text-end">
