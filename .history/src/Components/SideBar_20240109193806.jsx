@@ -16,7 +16,7 @@ function SideBar() {
       <Navbar.Collapse id="sidebar">
         <Nav className="flex-column ms-auto">
           <Nav.Item className={`nav-item mb-5 ${activeIcon === 'logo' ? 'selectedColor' : ''}`}>
-            <Nav.Link className="nav-link" onClick={() => setActiveIcon('logo')} href="/">
+            <Nav.Link className="nav-link" onClick={() => setActiveIcon('logo')} href="/hom">
               <img src={logo} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>

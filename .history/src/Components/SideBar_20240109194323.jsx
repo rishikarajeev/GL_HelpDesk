@@ -8,7 +8,7 @@ import homeIcon from "../Assets/Images/el_home-alt.png";
 import "../Assets/Css/Styles.css";
 
 function SideBar() {
-  const [activeIcon, setActiveIcon] = useState('home'); // Set the initial active icon
+  const [activeIcon, setActiveIcon] = useState('ho'); // Set the initial active icon
 
   return (
     <Navbar expand="lg" variant="dark" className="sideBg d-flex flex-column h-100 order-0">

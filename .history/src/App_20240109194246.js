@@ -21,7 +21,7 @@ function App() {
             <Col xl={11}>
             <Header/>
             <Routes>
-            <Route path="/" element={<ViewTickets />}></Route>
+            <Route path="/showtickets" element={<ViewTickets />}></Route>
               <Route path="/showtickets" element={<ViewTickets />}></Route>
               <Route path="/home" element={<HomePage />}></Route>
              

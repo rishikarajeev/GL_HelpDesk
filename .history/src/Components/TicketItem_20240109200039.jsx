@@ -40,7 +40,7 @@ function TicketItem() {
          </Row>
           </Col>
           <Row>
-            <Col xl={5} className="mt-2">
+            <Col xl={5} c>
               <UserBadge name={userName} />
             </Col>
             <Col xl={7} className="text-end">

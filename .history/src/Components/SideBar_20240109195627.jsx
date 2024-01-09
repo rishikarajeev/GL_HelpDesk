@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav ,Drawer } from 'react-bootstrap';
 import ticketIcon from "../Assets/Images/Layer_1.png";
 import logo from "../Assets/Images/logo.png";
 import profile from "../Assets/Images/profile_icon.png";
@@ -8,13 +8,24 @@ import homeIcon from "../Assets/Images/el_home-alt.png";
 import "../Assets/Css/Styles.css";
 
 function SideBar() {
+  const [showDrawer, setShowDrawer] = useState(false);
+
+  const handleDrawerOpen = () => setShowDrawer(true);
+  const handleDrawerClose = () => setShowDrawer(false);
+
   const [activeIcon, setActiveIcon] = useState('home'); // Set the initial active icon
 
   return (
-    <Navbar expand="lg" variant="dark" className="sideBg d-flex flex-column h-100 order-0">
-      <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto" />
-      <Navbar.Collapse id="sidebar">
-        <Nav className="flex-column ms-auto">
+    <Navbar expand="lg" variant="dark" className="sideBg d-flex flex-column order-0">
+      <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto"  onClick={handleDrawerOpen}/>
+      </Navbar>
+      <Drawer show={showDrawer} onHide={handleDrawerClose} placement="left">
+        <Drawer.Header closeButton>
+          <Drawer.Title>Your Menu</Drawer.Title>
+        </Drawer.Header>
+        <Drawer.Body>
+
+        <Nav className="flex-column mr-auto">
           <Nav.Item className={`nav-item mb-5 ${activeIcon === 'logo' ? 'selectedColor' : ''}`}>
             <Nav.Link className="nav-link" onClick={() => setActiveIcon('logo')} href="/">
               <img src={logo} alt="Home Icon" className="icon" />
@@ -46,8 +57,8 @@ function SideBar() {
             </Nav.Link>
           </Nav.Item>
         </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+   
+
   );
 }
 

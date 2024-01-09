@@ -14,7 +14,7 @@ function SideBar() {
     <Navbar expand="lg" variant="dark" className="sideBg d-flex flex-column h-100 order-0">
       <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto" />
       <Navbar.Collapse id="sidebar">
-        <Nav className="flex-column ms-auto">
+        <Nav className="flex-column mr-auto">
           <Nav.Item className={`nav-item mb-5 ${activeIcon === 'logo' ? 'selectedColor' : ''}`}>
             <Nav.Link className="nav-link" onClick={() => setActiveIcon('logo')} href="/">
               <img src={logo} alt="Home Icon" className="icon" />
