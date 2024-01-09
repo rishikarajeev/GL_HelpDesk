@@ -1,0 +1,58 @@
+.sideBg{
+    background-color:  #273045;
+    padding: 3;
+}
+.selectedColor{
+    background-color:  #117DE0;
+   
+}
+.bgColor{
+    background-color:  #EFEFEF;
+    
+}
+.fluent-column-triple {
+  height: 21px;
+  position: relative;
+  width: 21px;
+}
+
+.fluent-column-triple .vector {
+  height: 15px;
+  left: 3px;
+  position: absolute;
+  top: 3px;
+  width: 15px;
+}
+.ri-search-line {
+    height: 18px;
+    position: relative;
+    width: 18px;
+  }
+  
+  .ri-search-line .vector {
+    height: 15px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 15px;
+  }
+
+  .circle-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffa200; /* Choose your desired background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Choose your desired text color */
+  }
+  .close-icon {
+    position: absolute;
+    co;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  

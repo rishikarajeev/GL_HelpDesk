@@ -1,0 +1,33 @@
+.sideBg{
+    background-color:  #273045;
+    padding: 3;
+}
+.selectedColor{
+    background-color:  #117DE0;
+   
+}
+.bgColor{
+    background-color:  #EFEFEF;
+    
+}
+
+
+  .circle-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffa200; /* Choose your desired background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Choose your desired text color */
+  }
+  .close-icon {
+    position: absolute;
+    color:black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
