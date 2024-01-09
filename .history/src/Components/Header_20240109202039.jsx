@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
+  const handleDelete = () => {};
+
   return (
     <Container fluid>
       <Row className=" justify-content-end mt-3 mb-3">

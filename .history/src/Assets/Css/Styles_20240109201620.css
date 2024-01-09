@@ -1,7 +1,9 @@
 .sideBg{
     background-color:  #273045;
     text-align: left;
-
+    .navbar {
+      text-align: left;
+    }
    
 }
 .selectedColor{
