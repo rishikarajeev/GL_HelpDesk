@@ -23,8 +23,8 @@ function Header() {
         </Col>
 
         <Col sm={4} className="text-end">
-        <Button variant="btn btn-outline-primary selectedColor me-2">
-        <span className="small ms-2 text-white p-2">Add</span>
+        <Button variant="btn btn-outline-primary bg-primary me-2">
+        <span className="small ms-2 text-white">Add</span>
             <FontAwesomeIcon icon={faPlus } className="small" />
          
           </Button>
