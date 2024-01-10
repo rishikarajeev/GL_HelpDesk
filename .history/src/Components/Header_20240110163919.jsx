@@ -31,20 +31,20 @@ function Header() {
           <img
             src={menu_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 p-2 bg-white"
+            className="img-thumbnail me-2 "
           />
           <img
             src={notificatn_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 p-2 bg-white"
+            className="img-thumbnail me-2"
           />
           <img
             src={user_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 p-2 bg-white"
+            className="img-thumbnail me-2"
           />
           <button
-            className="btn btn-outline-secondary btn-sm dropdown-toggle me-2 p-2 bg-white"
+            className="btn btn-outline-secondary btn-sm dropdown-toggle me-2 "
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"

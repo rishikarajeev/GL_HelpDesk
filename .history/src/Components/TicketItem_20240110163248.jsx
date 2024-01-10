@@ -6,7 +6,7 @@ import userAddIcon from "../Assets/Images/Group 758674.png";
 function TicketItem() {
   const userName = "John";
   return (
-    <Container fluid className="p-2">
+    <Container fluid className="p-">
       <Row>
         <Col xl={10}>
           <Row>
@@ -17,7 +17,7 @@ function TicketItem() {
                 value=""
                 id="flexCheckDefault"
               />
-              <label className="form-check-label  fw-bolder" htmlFor="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Ac display is not working
               </label>
             </div>

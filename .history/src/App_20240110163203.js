@@ -14,7 +14,7 @@ function App() {
     <BrowserRouter>
       <Container fluid>
         <Row>
-          <Col xl={1} className="sideBg">
+          <Col xl={1} className="">
             <SideBar />
           </Col>
           <Col xl={11} className="bgColor">

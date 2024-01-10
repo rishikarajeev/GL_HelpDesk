@@ -11,7 +11,7 @@ function SideBar() {
   const [activeIcon, setActiveIcon] = useState("home"); // Set the initial active icon
 
   return (
-    <Navbar expand="lg" variant="dark" className=" p-3  h-100">
+    <Navbar expand="lg" variant="dark" className="sideBg p-3  h-100">
       <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto" />
       <Navbar.Collapse id="sidebar">
         <Nav className="flex-column ms-auto sideBg">

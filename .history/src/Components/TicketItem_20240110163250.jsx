@@ -17,7 +17,7 @@ function TicketItem() {
                 value=""
                 id="flexCheckDefault"
               />
-              <label className="form-check-label  fw-bolder" htmlFor="flexCheckDefault">
+              <label className="form-check-label" htmlFor="flexCheckDefault">
                 Ac display is not working
               </label>
             </div>

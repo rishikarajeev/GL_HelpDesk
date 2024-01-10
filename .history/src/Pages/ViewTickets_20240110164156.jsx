@@ -9,7 +9,7 @@ import {
   Button,
   ListGroup,
 } from "react-bootstrap";
-import column_icon from "../Assets/Images/fluent_column-triple-20-regular.jpg";
+import column_icon from "../Assets/Images/fluent_column-triple-20-regular.j";
 import list_icon from "../Assets/Images/ph_list-bullets-light.png";
 import search_icon from "../Assets/Images/ri_search-line.png";
 import delete_icon from "../Assets/Images/material-symbols_delete-outline.jpg";

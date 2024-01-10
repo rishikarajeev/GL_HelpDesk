@@ -7,14 +7,14 @@ import HomePage from "./Pages/HomePage";
 import SideBar from "./Components/SideBar";
 import { Container, Row, Col } from "react-bootstrap";
 import Header from "./Components/Header";
-import "./Assets/Css/Styles.css"
+i
 
 function App() {
   return (
     <BrowserRouter>
       <Container fluid>
         <Row>
-          <Col xl={1} className="sideBg">
+          <Col xl={1}>
             <SideBar />
           </Col>
           <Col xl={11} className="bgColor">

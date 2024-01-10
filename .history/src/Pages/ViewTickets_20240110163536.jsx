@@ -9,7 +9,7 @@ import {
   Button,
   ListGroup,
 } from "react-bootstrap";
-import column_icon from "../Assets/Images/fluent_column-triple-20-regular.jpg";
+import column_icon from "../Assets/Images/fluent_column-triple-20-regular.png";
 import list_icon from "../Assets/Images/ph_list-bullets-light.png";
 import search_icon from "../Assets/Images/ri_search-line.png";
 import delete_icon from "../Assets/Images/material-symbols_delete-outline.jpg";
@@ -35,7 +35,7 @@ function ViewTickets() {
               Show tickets created by me
             </label>
           <input
-              className="form-check-input p-2"
+              class="form-check-input"
               type="checkbox"
               role="switch"
               id="flexSwitchCheckDefault"
@@ -45,11 +45,11 @@ function ViewTickets() {
         
           </div>
         </Col>
-        <Col className="d-none d-lg-block ">
+        <Col className="d-none d-lg-block bg-whit">
           <img
             src={delete_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 bg-white p-2"
+            className="img-thumbnail me-2"
           />
 
           <button
@@ -69,15 +69,15 @@ function ViewTickets() {
           <img
             src={search_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 p-2 bg-white"
+            className="img-thumbnail me-2"
           />
           <img
             src={filter_icon}
             alt="Local Icon"
-            className="img-thumbnail me-2 p-2 bg-white"
+            className="img-thumbnail me-2"
           />
           <button
-            class="btn btn-outline-secondary btn-sm dropdown-toggle me-2  p-2 bg-white"
+            class="btn btn-outline-secondary btn-sm dropdown-toggle me-2 "
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"

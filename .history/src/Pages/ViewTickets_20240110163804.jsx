@@ -9,7 +9,7 @@ import {
   Button,
   ListGroup,
 } from "react-bootstrap";
-import column_icon from "../Assets/Images/fluent_column-triple-20-regular.jpg";
+import column_icon from "../Assets/Images/fluent_column-triple-20-regular.png";
 import list_icon from "../Assets/Images/ph_list-bullets-light.png";
 import search_icon from "../Assets/Images/ri_search-line.png";
 import delete_icon from "../Assets/Images/material-symbols_delete-outline.jpg";
@@ -35,7 +35,7 @@ function ViewTickets() {
               Show tickets created by me
             </label>
           <input
-              className="form-check-input p-2"
+              class="form-check-input"
               type="checkbox"
               role="switch"
               id="flexSwitchCheckDefault"
