@@ -17,7 +17,7 @@ function SideBar() {
         <Nav className="flex-column sideBg">
           <Navbar.Brand className="mb-5">
             {" "}
-            <img src={logo} alt="Home Icon " className="icon" />
+            <img src={logo} alt="Home Icon w-2" className="icon" />
           </Navbar.Brand>
 
           <Nav.Item

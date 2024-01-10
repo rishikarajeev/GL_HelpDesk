@@ -23,7 +23,7 @@ function TicketItem() {
             </div>
           </Row>
           <Row>
-            <p className="small text-wrap txt-ticket-color">
+            <p className="small text-wrap ">
               To install the getlead app either scan the QR code and download
               the app or get a link to your mobile number
             </p>

@@ -27,9 +27,9 @@ function ViewTickets() {
           <img src={list_icon} />
         </Col>
         <Col className="d-none d-lg-block">
-          <div class="form-check form-switch ms-0 d-flex align-items-start">
+          <div class="form-check form-switch ms-0 d-flex align-items-center">
           <label
-              class="form-check-label small me-5 p "
+              class="form-check-label small "
               for="flexSwitchCheckDefault"
             >
               Show tickets created by me

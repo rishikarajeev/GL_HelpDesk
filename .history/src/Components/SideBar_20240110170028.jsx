@@ -15,11 +15,8 @@ function SideBar() {
       <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto" />
       <Navbar.Collapse id="sidebar">
         <Nav className="flex-column sideBg">
-          <Navbar.Brand className="mb-5">
-            {" "}
-            <img src={logo} alt="Home Icon " className="icon" />
-          </Navbar.Brand>
-
+        <Navbar.Brand  className="mb-5"> <img src={logo} alt="Home Icon" className="icon" /></Navbar.Brand>
+        
           <Nav.Item
             className={`nav-item p-2 ${
               activeIcon === "home" ? "selectedColor" : ""
@@ -43,7 +40,7 @@ function SideBar() {
               onClick={() => setActiveIcon("tickets")}
               href="/showtickets"
             >
-              <img src={ticketIcon} alt="Ticket Icon" className="icon" />
+              <img src={ticketIcon} alt="T Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item
@@ -56,7 +53,7 @@ function SideBar() {
               onClick={() => setActiveIcon("file")}
               href="#"
             >
-              <img src={filemanagr} alt="file Icon" className="icon" />
+              <img src={filemanagr} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item
@@ -69,7 +66,7 @@ function SideBar() {
               onClick={() => setActiveIcon("profile")}
               href="#"
             >
-              <img src={profile} alt="profile Icon" className="icon" />
+              <img src={profile} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item

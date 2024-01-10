@@ -1,10 +1,10 @@
-.sideBg{
+.side-bg{
     background-color:  #273045;
     text-align: left;
 
    
 }
-.selectedColor{
+.selected-Color{
     background-color:  #117DE0;
     
    
@@ -13,7 +13,7 @@
     background-color:  #EFEFEF;
     
 }
-.txt-ticket-color{
+.txtTicketColor{
   color:#4D5459
   
 }

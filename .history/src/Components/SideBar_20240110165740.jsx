@@ -8,18 +8,15 @@ import homeIcon from "../Assets/Images/el_home-alt.png";
 import "../Assets/Css/Styles.css";
 
 function SideBar() {
-  const [activeIcon, setActiveIcon] = useState("tickets"); // Set the initial active icon
+  const [activeIcon, setActiveIcon] = useState("home"); // Set the initial active icon
 
   return (
     <Navbar expand="lg" variant="dark" className=" p-3  h-100">
       <Navbar.Toggle aria-controls="sidebar" className="order-0 ml-auto" />
       <Navbar.Collapse id="sidebar">
-        <Nav className="flex-column sideBg">
-          <Navbar.Brand className="mb-5">
-            {" "}
-            <img src={logo} alt="Home Icon " className="icon" />
-          </Navbar.Brand>
-
+        <Nav className="flex-column ms-auto sideBg">
+        <Navbar.Brand href="#home" className="mb-10"> <img src={logo} alt="Home Icon" className="icon" /></Navbar.Brand>
+        
           <Nav.Item
             className={`nav-item p-2 ${
               activeIcon === "home" ? "selectedColor" : ""
@@ -43,7 +40,7 @@ function SideBar() {
               onClick={() => setActiveIcon("tickets")}
               href="/showtickets"
             >
-              <img src={ticketIcon} alt="Ticket Icon" className="icon" />
+              <img src={ticketIcon} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item
@@ -56,7 +53,7 @@ function SideBar() {
               onClick={() => setActiveIcon("file")}
               href="#"
             >
-              <img src={filemanagr} alt="file Icon" className="icon" />
+              <img src={filemanagr} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item
@@ -69,7 +66,7 @@ function SideBar() {
               onClick={() => setActiveIcon("profile")}
               href="#"
             >
-              <img src={profile} alt="profile Icon" className="icon" />
+              <img src={profile} alt="Home Icon" className="icon" />
             </Nav.Link>
           </Nav.Item>
           <Nav.Item
