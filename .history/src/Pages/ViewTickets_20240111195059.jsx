@@ -28,7 +28,7 @@ function ViewTickets() {
 
           <img src={list_icon} />
         </Col>
-        <Col lg={4} className="d-none d-lg-block text-start">
+        <Col lg={4} className="d-none  text-start">
           <div class="form-check form-switch ms-0">
             <label
               class="form-check-label small p"
@@ -44,7 +44,7 @@ function ViewTickets() {
             />
           </div>
         </Col>
-        <Col lg={4} className="d-lg-block d-none text-start ">
+        <Col lg={4} className=" ">
           <Row>
             <Col className="col-auto">
               <Image

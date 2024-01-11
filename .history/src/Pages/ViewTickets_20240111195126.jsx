@@ -44,7 +44,7 @@ function ViewTickets() {
             />
           </div>
         </Col>
-        <Col lg={4} className="d-lg-block d-none text-start ">
+        <Col lg={4} className="d-lg-block text-start ">
           <Row>
             <Col className="col-auto">
               <Image
